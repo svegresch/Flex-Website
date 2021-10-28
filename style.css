@@ -1,0 +1,206 @@
+body {
+    background-color: #1C2B1B; 
+    font-family: 'Love Ya Like A Sister', cursive; 
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    }
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+    background-color: #338855;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #666659;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    flex-wrap: wrap;   
+    align-items: center;
+    justify-content: center;   
+}
+
+#bannerContainer{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left; 
+    flex-direction: row;
+    align-items: center; 
+    list-style-type: none;
+    align-items: center; 
+}  
+
+#banner{
+    width: 400px; 
+    border-radius: 10px; 
+    display: inline;
+    margin: 5px;   
+    word-break: keep-all;
+    background-color: #8EB12A;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #666659;
+    font-size: 30px;
+    cursor:pointer;    
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+
+.cuteCthulhu{
+   max-width: 15%;
+   display:inline;
+}
+
+#navButtonContainer {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    height: fit-content;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none; 
+}
+
+.navButtons {
+    width: 300px;
+    margin: 5px;   
+    word-break: keep-all;
+    background-color: #8EB12A;
+    border-radius: 5px;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #666659;
+    cursor:pointer;
+    font-size: 20px;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+#infoBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    object-position: center;  
+    position: sticky;  
+    white-space: initial;
+    align-items: center;
+    justify-content: center;       
+}
+
+h2{
+    display: inline;
+    vertical-align: top;
+}
+
+.infoCthulhu {
+    display: inline;
+    max-width: 25%;
+    float: right;
+}
+
+.infoBoxText{
+    max-width: 60%;
+    vertical-align: top;
+    text-align: left;
+    margin: 5px;
+    word-break: keep-all;
+}
+
+.infoBoxSection{
+    max-width: 31%;
+    border-width: 10px; 
+    border-style: dotted;
+    border-color: #666659;
+    margin: 5px;    
+    background-color: #B5B210;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+#textBoxes {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    vertical-align: center; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textBoxSection {
+    max-width: 31%;
+    padding: 8px; 
+    margin: 5px;    
+    color: #B5B210;
+    border-radius: 10px;
+    display: flex;
+    min-width: 300px;  
+}
+
+#textBoxSpan3{
+    display: flex;
+    flex-wrap: wrap-reverse;   
+}
+
+#textBoxSpan1{
+    display: flex;
+    flex-wrap: wrap-reverse;   
+}
+
+.textBoxText{
+    text-align: justify;;
+    margin: 5px;
+    word-break: keep-all; 
+}
+
+h3{
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+    background-color: #338855;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #666659;
+}
+#tableAligner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+table{
+    min-width: 300px;
+
+}
+td{
+    border: 5px dotted  #666659;
+    background-color: #8EB12A;
+    font-size: 3vw;   
+} 
+
